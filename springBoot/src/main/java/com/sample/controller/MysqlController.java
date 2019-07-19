@@ -5,18 +5,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sample.service.DbService;
+import com.sample.serviceImpl.DbServiceImpl;
  
  
 @RestController
-public class DbController {
+public class MysqlController {
     @Autowired
-    DbService dbService;
+    DbServiceImpl dbService;
      
-    @RequestMapping("/now")
+    @RequestMapping("/mysql")
     public @ResponseBody String now() throws Exception{
         return dbService.getDual();
     }
 }
-
-
