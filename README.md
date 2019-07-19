@@ -21,7 +21,7 @@
 	
 ###아래 디펜던시 사용시 페이지가 정상작동하지 않음.
 	-view를 타지 않는 @RestController는 정상작동하지만, 
-	@Controller를 사용하면 해당 메소드는 실행되지만 view는 찾지 못함(500 error)
+	view를 타지 않는 @Controller를 사용하면 해당 메소드는 실행되지만 view는 찾지 못함(500 error)
 	
 	<dependency>
 		<groupId>org.springframework.boot</groupId>
