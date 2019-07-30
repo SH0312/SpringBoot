@@ -3,7 +3,7 @@
 ##System 정보
 	-java 
 	jdk_1.8_221
-	(JAVA 낮은버전 사용 시 정상 작동안 됨.)
+	(JAVA 낮은버전 사용 시 정상 작동안 됨. 확실하지 않음.)
 	-spring
 	2.1.6
 	-server
@@ -14,6 +14,14 @@
 ###mysql 연동
 	mysql 정보 입력 : application.properties 
 	url : localhost/mysql
+	
+###postgres 연동
+	postgres 정보 입력 : application.properties 
+	url : localhost/postgres
+	
+###mongodb 연동
+	mongodb 정보 입력 : application.properties 
+	url : localhost/mongo
 	
 ###JSP 페이지 연동
 	url : localhost/
