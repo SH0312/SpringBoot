@@ -1,5 +1,39 @@
-{"properties": [{
-  "name": "sereer.port",
-  "type": "java.lang.String",
-  "description": "A description for 'sereer.port'"
-}]}
+{
+	"properties": [
+		{
+			"name": "spring.db1.datasource.driver-Class-Name",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.db1.datasource.driver-Class-Name'"
+		},
+		{
+			"name": "spring.db1.datasource.jdbc-url",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.db1.datasource.jdbc-url'"
+		},
+		{
+			"name": "spring.db1.datasource.username",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.db1.datasource.username'"
+		},
+		{
+			"name": "spring.db1.datasource.password",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.db1.datasource.password'"
+		},
+		{
+			"name": "spring.db2.datasource.jdbc-url",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.db2.datasource.jdbc-url'"
+		},
+		{
+			"name": "spring.db2.datasource.username",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.db2.datasource.username'"
+		},
+		{
+			"name": "spring.db2.datasource.password",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.db2.datasource.password'"
+		}
+	]
+}
