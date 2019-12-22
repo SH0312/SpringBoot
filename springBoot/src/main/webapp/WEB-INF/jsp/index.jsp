@@ -6,9 +6,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Spring Boot Application with JSP</title>
+
+<script type="text/javascript" src="/static/js/main.js"></script>
+<link rel="stylesheet" href="/static/css/main.css">
+
 </head>
 <body>
 	index Page
 	<br> ${test}
+	<div id="wrap">
+
+	</div>
+
 </body>
 </html>

@@ -1,10 +1,9 @@
 package com.sample.service;
 
-
-import org.springframework.data.mongodb.repository.MongoRepository;
+import java.util.List;
 
 import com.sample.Fields.MongoField;
 
-
-public interface IMongodbService extends MongoRepository<MongoField, Long> {
+public interface IMongodbService{
+	public List<MongoField> findAll();
 }

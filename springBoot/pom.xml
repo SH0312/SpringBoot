@@ -15,9 +15,9 @@
 	<description>SH project for Spring Boot</description>
 
 	<properties>
-		<java.version>1.8</java.version>
-		
-		<!-- 프로젝스 에러 발생시 아래 주석 해제 후 maven update-->
+		<java.version>11</java.version>
+
+		<!-- 프로젝스 에러 발생시 아래 주석 해제 후 maven update -->
 		<!-- <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version> -->
 	</properties>
 
@@ -39,8 +39,18 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
+		</dependency>
+
+		<!-- GSON -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
 		</dependency>
 		<!-- Mongo -->
 		<dependency>
@@ -63,7 +73,7 @@
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
-			<version>3.3.0</version>
+			<version>3.5.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mybatis</groupId>

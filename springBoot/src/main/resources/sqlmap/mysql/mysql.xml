@@ -2,9 +2,14 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.sample.msyql.Mapper">
 
-	<select id="selectListTest" resultType="com.sample.Fields.MysqlField">
+	<select id="selectListTest"
+		resultType="com.sample.Fields.MysqlField">
 		SELECT * FROM test
 	</select>
+	
+	<insert id ="insertTest"  parameterType="com.sample.Fields.MysqlField">
+		INSERT INTO test VALUES(0, #{name}, #{age}, #{sex});
+	</insert>
 
 </mapper>
 

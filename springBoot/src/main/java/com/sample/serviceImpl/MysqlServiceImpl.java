@@ -21,6 +21,11 @@ public class MysqlServiceImpl implements IMysqlService{
 	public List<MysqlField> selectListTest() throws Exception {
 		return mysqlSqlSession.selectList("com.sample.msyql.Mapper.selectListTest");
 	}
+
+	@Override
+	public int insertTest(MysqlField data) throws Exception {
+		return mysqlSqlSession.insert("com.sample.msyql.Mapper.insertTest", data);
+	}
 	
 
 }
